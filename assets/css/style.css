@@ -18,6 +18,7 @@ body {
         }
         #primo-esercizio {
             display: flex;
+            justify-content: space-around;
         }
     }
 
@@ -295,8 +296,13 @@ aside div p:last-child {
 @media screen and (min-width:800px) {
     #secondo-esercizio {
         flex-direction: column;
+        gap: 20px;
+        justify-content: space-around;
+        background-color: white;
+        font-size: 20px;
+    }
         }
-}
+
 
 
 /* FOOTER */
@@ -346,4 +352,14 @@ footer a {
         display: none;
     }
 }
+@media screen and (min-width:800px){
+    main {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        background-color: white;
+        font-size: 20px;
+    }
+    }
+
 
